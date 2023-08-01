@@ -282,6 +282,18 @@ mechanism = df_event['mechanism']
 action = df_event['action']
 drugA = df_event['drugA']
 drugB = df_event['drugB']
+#-------------------------------------------------------------------------------------------
+#Dataset3 (DS3):
+event_num = 185                                                                
+droprate = 0.3                                                                
+vector_size = 645                                                            
+df_drug = pd.read_csv('DS3_information.csv')  
+df_drug = df_drug.fillna('')
+df_event = pd.read_csv('DS3_interactions.csv')                                                             
+feature_list=df_drug[["Mono", "Target"]]          
+mechanism = df_event['SE']
+drugA = df_event['drugA']
+drugB = df_event['drugB']
 #--------------------------------------------------------------------------------------------
 seed = 0
 CV = 5
