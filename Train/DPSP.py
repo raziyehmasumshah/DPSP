@@ -288,7 +288,6 @@ event_num = 185
 droprate = 0.3                                                                
 vector_size = 645                                                            
 df_drug = pd.read_csv('DS3_information.csv')  
-df_drug = df_drug.fillna('')
 df_event = pd.read_csv('DS3_interactions.csv')                                                             
 feature_list=df_drug[["Mono", "Target"]]          
 mechanism = df_event['SE']
