@@ -19,3 +19,7 @@ Use the following command to install all dependencies.
 ```
 
 Notice: Too high version of sklearn will probably not work. We use 0.21.2 for sklearn.
+
+##Citation
+Please kindly cite the paper if you use the code or the datasets in this repo:
+Raziyeh Masumshah, Changiz Eslahchi, DPSP: A multimodal deep learning framework for polypharmacy side effects prediction, Bioinformatics Advances, 2023;, vbad110, https://doi.org/10.1093/bioadv/vbad110
